@@ -1,9 +1,10 @@
 {
   "name": "tickit-app",
   "version": "0.1.0",
-  "homepage": "https://aacevedo95.github.io/tickit",
+  "homepage": "https://aacevedo95.github.io/tickit/",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",

@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
+import TableComponent from './TableComponent';
 
 function App() {
   // Similar to componentDidMount and componentDidUpdate:
@@ -49,6 +50,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <TableComponent />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
